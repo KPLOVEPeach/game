@@ -76,7 +76,7 @@ function draw(){
 
     ctx.font = "30px 'ＭＳ ゴシック'";
       ctx.fillStyle = "#FFFFFF";
-      ctx.fillText("鬼開放まで:" + time2,1150,50);
+      ctx.fillText("鬼開放まで:" + time2, w / 2 - 150,h / 2);
 
     for(var i = 0; i < 3; i ++){
         ctx.drawImage(enemy[i], enemyX[i], enemyY[i], 100, 100);
